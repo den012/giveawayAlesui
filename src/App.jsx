@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 
 import './App.css';
 
@@ -12,6 +13,11 @@ const App = () => {
   const percentage = (completed / goal) * 100;
   return (
     <div>
+      <Helmet>
+        <title>Giveaway lessi05yt</title>
+        <meta name="description" content="Giveaway lessi05YT" />
+        <meta name="keywords" content="Giveaway, lessi05YT, lessi, 05, YT" />
+      </Helmet>
       <Confeti />
       <div className="text-white flex flex-col items-center justify-center">
         <h1 className="text-5xl text-gray-800 mb-4 font-bold">Salut sunt Alessio si acesta este primul meu Giveaway!!!</h1>
