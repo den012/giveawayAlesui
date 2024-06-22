@@ -16,7 +16,7 @@ const Confeti = () => {
                     <div className="flex flex-row items-center">
                         {/* <h1>giftt</h1> */}
                         <img src={Gift} alt="gift" className="w-32 h-32 mr-10"/>
-                        <h1 className="bg-green-700 text-2xl p-2 rounded-md rotate-[-10deg] font-bold">50$ CS2 SKIN</h1>
+                        <h1 className="bg-blue-700 text-2xl p-2 rounded-md rotate-[-10deg] font-bold">50$ CS2 SKIN</h1>
                     </div>
                 </div>
 

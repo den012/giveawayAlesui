@@ -29,7 +29,7 @@ const App = () => {
           <progress className="w-96 h-4 bg-red-700 rounded-xl mr-5" value={percentage} max="100"></progress>
           <h1 className="text-xl text-blue-500 font-bold">{percentage.toFixed(2)}%</h1>
         </div>
-        <h1 className="text-3xl text-yellow-500">1133/2500</h1>
+        <h1 className="text-3xl text-yellow-500 font-bold">1133/2500</h1>
       </div>
     </div>
   )
