@@ -18,7 +18,7 @@ const App = () => {
         <img src={Alesui} alt="Alesio" className="w-auto h-64" />
 
 
-        <h1 className="text-4xl text-blue-300">Abonati care ma urmaresc!</h1>
+        <h1 className="text-4xl text-blue-300">Fani infocati alesui05yt!</h1>
         <div className="flex flex-row items-center justify-center">
           <progress className="w-96 h-4 bg-red-700 rounded-xl mr-5" value={percentage} max="100"></progress>
           <h1 className="text-xl text-blue-500">{percentage.toFixed(2)}%</h1>
