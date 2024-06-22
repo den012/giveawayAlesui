@@ -24,9 +24,9 @@ const Confeti = () => {
                 <Confetti
                 className="z-index-50" 
                 width={width} 
-                height={384}
+                height={height}
                 numberOfPieces={100}
-                opacity={0.5}
+                opacity={0.8}
                 />
             </div>
         </div>

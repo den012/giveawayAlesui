@@ -1,6 +1,16 @@
 body{
+    height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgba(109, 106, 106, 0.763);
+    background: linear-gradient(
+        to right, 
+        red, 
+        orange, 
+        yellow, 
+        green, 
+        blue, 
+        indigo, 
+        violet
+    );
 }

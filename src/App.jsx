@@ -14,7 +14,7 @@ const App = () => {
     <div>
       <Confeti />
       <div className="text-white flex flex-col items-center justify-center">
-        <h1 className="text-5xl text-red-700 mb-4">Alesio sugus!!!</h1>
+        <h1 className="text-5xl text-gray-800 mb-4 font-bold">Salut sunt Alessio si acesta este primul meu Giveaway!!!</h1>
         <img src={Alesui} alt="Alesio" className="w-auto h-64" />
 
 
